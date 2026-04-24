@@ -1,0 +1,124 @@
+{
+  "country_code": "KM",
+  "country_name": "Union of the Comoros",
+  "basin_ids": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "basins": [
+    {
+      "basin_id": "B1",
+      "display_name": "Ngazidja (Grande Comore)",
+      "group_key": "Ngazidja",
+      "area_km2": 25.68
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Ndzuwani (Anjouan)",
+      "group_key": "Ndzuwani",
+      "area_km2": 9.33
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Mwali (Moh\u00e9li)",
+      "group_key": "Mwali",
+      "area_km2": 27.82
+    }
+  ],
+  "bbox": [
+    43.254363,
+    -12.295416,
+    44.51355,
+    -11.758718
+  ],
+  "center": [
+    -12.041542987458199,
+    43.86948018220896
+  ],
+  "landcover": {
+    "type": "image_overlay",
+    "file": "landcover.png",
+    "bounds": [
+      [
+        -12.298270103089166,
+        43.251031587924
+      ],
+      [
+        -11.758230176759751,
+        44.51436217907262
+      ]
+    ],
+    "legend": [
+      {
+        "class": 1,
+        "label": "Water",
+        "color": "#1A5BAB"
+      },
+      {
+        "class": 2,
+        "label": "Trees",
+        "color": "#358221"
+      },
+      {
+        "class": 5,
+        "label": "Crops",
+        "color": "#FFDB5C"
+      },
+      {
+        "class": 7,
+        "label": "Built area",
+        "color": "#ED022A"
+      },
+      {
+        "class": 8,
+        "label": "Bare ground",
+        "color": "#EDE9E4"
+      },
+      {
+        "class": 10,
+        "label": "Clouds",
+        "color": "#C8C8C8"
+      },
+      {
+        "class": 11,
+        "label": "Rangeland",
+        "color": "#C6AD8D"
+      }
+    ]
+  },
+  "files": {
+    "basins.geojson": 18674,
+    "buildings.geojson": 1221775,
+    "country_boundary.geojson": 3789,
+    "landcover.png": 344424,
+    "landcover_bounds.json": 742,
+    "meta.json": 1868
+  },
+  "downloads": [
+    {
+      "basin_id": "B1",
+      "display_name": "Ngazidja (Grande Comore)",
+      "geojson": "to_download/B1_Ngazidja_Grande_Comore.geojson",
+      "shapefile_zip": "to_download/B1_Ngazidja_Grande_Comore.zip",
+      "geojson_size": 7707,
+      "zip_size": 4339
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Ndzuwani (Anjouan)",
+      "geojson": "to_download/B2_Ndzuwani_Anjouan.geojson",
+      "shapefile_zip": "to_download/B2_Ndzuwani_Anjouan.zip",
+      "geojson_size": 4067,
+      "zip_size": 2694
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Mwali (Moh\u00e9li)",
+      "geojson": "to_download/B3_Mwali_Moh_li.geojson",
+      "shapefile_zip": "to_download/B3_Mwali_Moh_li.zip",
+      "geojson_size": 7315,
+      "zip_size": 3962
+    }
+  ]
+}

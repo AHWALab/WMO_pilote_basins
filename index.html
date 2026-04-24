@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WMO Urban Flood Forecasting – Pilot Basins</title>
+  <meta name="description" content="Pilot basins for the WMO urban flood forecasting project across Comoros, Haiti, Guatemala, Antigua & Barbuda, and Barbados." />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">WMO</div>
+      <div class="brand-text">
+        <div class="brand-title">Urban Flood Forecasting – Pilot Basins</div>
+        <div class="brand-sub">A project of the World Meteorological Organization</div>
+      </div>
+    </div>
+    <nav class="country-switcher" id="country-switcher" aria-label="Select country"></nav>
+  </header>
+
+  <main class="app-shell">
+    <aside class="side-panel" id="side-panel">
+      <section class="panel-section">
+        <h2 id="country-name">—</h2>
+        <p id="country-blurb" class="muted"></p>
+      </section>
+      <section class="panel-section">
+        <h3>Layers</h3>
+        <ul class="layer-list" id="layer-list"></ul>
+      </section>
+      <section class="panel-section">
+        <h3>Pilot basins</h3>
+        <ul class="basin-list" id="basin-list"></ul>
+      </section>
+      <section class="panel-section" id="legend-section">
+        <h3>Land-cover legend</h3>
+        <ul class="legend" id="legend"></ul>
+      </section>
+      <section class="panel-section panel-footer">
+        <p class="muted tiny">
+          Sources: GADM (boundary), HydroSHEDS + project (basins),
+          ESRI/IO Sentinel-2 10 m Land Cover 2024, OpenStreetMap / Overture (buildings).
+        </p>
+      </section>
+    </aside>
+    <div id="map" role="region" aria-label="Interactive map"></div>
+  </main>
+
+  <script>
+    window.DATA_BASE = "data/";
+    window.COUNTRIES = [
+      { code: "KM", name: "Comoros",               folder: "comoros",          available: true,  blurb: "Union of the Comoros - pilot basins on Ngazidja, Ndzuwani and Mwali." },
+      { code: "HT", name: "Haiti",                 folder: "haiti",            available: true,  blurb: "Republic of Haiti - 3 pilot basins: Griss River, Mapou River, La Quinte River." },
+      { code: "GT", name: "Guatemala",             folder: "gautilama",        available: true,  blurb: "Republic of Guatemala - 7 prioritised watersheds." },
+      { code: "AG", name: "Antigua & Barbuda",     folder: "antigua_barbuda",  available: true,  blurb: "Antigua & Barbuda - 3 pilot basins (2 on Antigua, 1 on Barbuda)." },
+      { code: "BB", name: "Barbados",              folder: "barbados",         available: true,  blurb: "Barbados - pilot basin (100.5 km²)." },
+    ];
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+  {
+    "basin_id": "B1",
+    "display_name": "Barbados pilot basin",
+    "geojson": "to_download/B1_Barbados_pilot_basin.geojson",
+    "shapefile_zip": "to_download/B1_Barbados_pilot_basin.zip",
+    "geojson_size": 7824,
+    "zip_size": 3975
+  }
+]

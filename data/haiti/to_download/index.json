@@ -1,0 +1,26 @@
+[
+  {
+    "basin_id": "B1",
+    "display_name": "Griss River",
+    "geojson": "to_download/B1_Griss_River.geojson",
+    "shapefile_zip": "to_download/B1_Griss_River.zip",
+    "geojson_size": 27149,
+    "zip_size": 4582
+  },
+  {
+    "basin_id": "B2",
+    "display_name": "Mapou River",
+    "geojson": "to_download/B2_Mapou_River.geojson",
+    "shapefile_zip": "to_download/B2_Mapou_River.zip",
+    "geojson_size": 16835,
+    "zip_size": 3413
+  },
+  {
+    "basin_id": "B3",
+    "display_name": "La Quinte River",
+    "geojson": "to_download/B3_La_Quinte_River.geojson",
+    "shapefile_zip": "to_download/B3_La_Quinte_River.zip",
+    "geojson_size": 33745,
+    "zip_size": 5318
+  }
+]

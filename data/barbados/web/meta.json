@@ -1,0 +1,94 @@
+{
+  "country_code": "BB",
+  "country_name": "Barbados",
+  "basin_ids": [
+    "B1"
+  ],
+  "basins": [
+    {
+      "basin_id": "B1",
+      "display_name": "Barbados pilot basin",
+      "group_key": "barbados_main",
+      "area_km2": 100.53
+    }
+  ],
+  "bbox": [
+    -59.639583,
+    13.091806,
+    -59.543894,
+    13.199861
+  ],
+  "center": [
+    13.145393695693928,
+    -59.590913602677546
+  ],
+  "landcover": {
+    "type": "image_overlay",
+    "file": "landcover.png",
+    "bounds": [
+      [
+        13.091416244681918,
+        -59.63984718103469
+      ],
+      [
+        13.200074833636423,
+        -59.54294778501234
+      ]
+    ],
+    "legend": [
+      {
+        "class": 1,
+        "label": "Water",
+        "color": "#1A5BAB"
+      },
+      {
+        "class": 2,
+        "label": "Trees",
+        "color": "#358221"
+      },
+      {
+        "class": 5,
+        "label": "Crops",
+        "color": "#FFDB5C"
+      },
+      {
+        "class": 7,
+        "label": "Built area",
+        "color": "#ED022A"
+      },
+      {
+        "class": 8,
+        "label": "Bare ground",
+        "color": "#EDE9E4"
+      },
+      {
+        "class": 10,
+        "label": "Clouds",
+        "color": "#C8C8C8"
+      },
+      {
+        "class": 11,
+        "label": "Rangeland",
+        "color": "#C6AD8D"
+      }
+    ]
+  },
+  "files": {
+    "basins.geojson": 7807,
+    "buildings.geojson": 4710400,
+    "country_boundary.geojson": 6413,
+    "landcover.png": 71655,
+    "landcover_bounds.json": 744,
+    "meta.json": 1534
+  },
+  "downloads": [
+    {
+      "basin_id": "B1",
+      "display_name": "Barbados pilot basin",
+      "geojson": "to_download/B1_Barbados_pilot_basin.geojson",
+      "shapefile_zip": "to_download/B1_Barbados_pilot_basin.zip",
+      "geojson_size": 7824,
+      "zip_size": 3975
+    }
+  ]
+}

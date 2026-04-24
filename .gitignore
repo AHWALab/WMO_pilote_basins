@@ -1,0 +1,6 @@
+# nothing generated; all assets are committed
+.DS_Store
+__pycache__/
+*.pyc
+.vscode/
+.idea/

@@ -1,0 +1,129 @@
+{
+  "country_code": "AG",
+  "country_name": "Antigua and Barbuda",
+  "basin_ids": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "basins": [
+    {
+      "basin_id": "B1",
+      "display_name": "Antigua pilot basin #1",
+      "group_key": "antigua_1",
+      "area_km2": 15.07
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Antigua pilot basin #2",
+      "group_key": "antigua_2",
+      "area_km2": 23.71
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Barbuda pilot basin",
+      "group_key": "barbuda",
+      "area_km2": 77.83
+    }
+  ],
+  "bbox": [
+    -61.906528,
+    17.038389,
+    -61.734583,
+    17.667639
+  ],
+  "center": [
+    17.441936144783885,
+    -61.80882517304711
+  ],
+  "landcover": {
+    "type": "image_overlay",
+    "file": "landcover.png",
+    "bounds": [
+      [
+        17.037578363108814,
+        -61.90685438091836
+      ],
+      [
+        17.668424839939984,
+        -61.73408054330282
+      ]
+    ],
+    "legend": [
+      {
+        "class": 1,
+        "label": "Water",
+        "color": "#1A5BAB"
+      },
+      {
+        "class": 2,
+        "label": "Trees",
+        "color": "#358221"
+      },
+      {
+        "class": 4,
+        "label": "Flooded vegetation",
+        "color": "#87D19E"
+      },
+      {
+        "class": 5,
+        "label": "Crops",
+        "color": "#FFDB5C"
+      },
+      {
+        "class": 7,
+        "label": "Built area",
+        "color": "#ED022A"
+      },
+      {
+        "class": 8,
+        "label": "Bare ground",
+        "color": "#EDE9E4"
+      },
+      {
+        "class": 10,
+        "label": "Clouds",
+        "color": "#C8C8C8"
+      },
+      {
+        "class": 11,
+        "label": "Rangeland",
+        "color": "#C6AD8D"
+      }
+    ]
+  },
+  "files": {
+    "basins.geojson": 19748,
+    "buildings.geojson": 4987471,
+    "country_boundary.geojson": 5829,
+    "landcover.png": 121255,
+    "landcover_bounds.json": 837,
+    "meta.json": 2541
+  },
+  "downloads": [
+    {
+      "basin_id": "B1",
+      "display_name": "Antigua pilot basin #1",
+      "geojson": "to_download/B1_Antigua_pilot_basin_1.geojson",
+      "shapefile_zip": "to_download/B1_Antigua_pilot_basin_1.zip",
+      "geojson_size": 5465,
+      "zip_size": 2798
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Antigua pilot basin #2",
+      "geojson": "to_download/B2_Antigua_pilot_basin_2.geojson",
+      "shapefile_zip": "to_download/B2_Antigua_pilot_basin_2.zip",
+      "geojson_size": 6742,
+      "zip_size": 3135
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Barbuda pilot basin",
+      "geojson": "to_download/B3_Barbuda_pilot_basin.geojson",
+      "shapefile_zip": "to_download/B3_Barbuda_pilot_basin.zip",
+      "geojson_size": 7967,
+      "zip_size": 4095
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "country_code": "GT",
+  "country_name": "Republic of Guatemala",
+  "basin_ids": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+  ],
+  "basins": [
+    {
+      "basin_id": "B1",
+      "display_name": "Morales",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 15937.69
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Gualan",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 13175.26
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Santa Ines Petape",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 313.52
+    },
+    {
+      "basin_id": "B4",
+      "display_name": "Panzos",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 2311.57
+    },
+    {
+      "basin_id": "B5",
+      "display_name": "Santa Catalina la Tinta",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 1445.3
+    },
+    {
+      "basin_id": "B6",
+      "display_name": "San Pedro Carcha",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 660.55
+    },
+    {
+      "basin_id": "B7",
+      "display_name": "Coban",
+      "group_key": "cuencas_priorizadas",
+      "area_km2": 475.2
+    }
+  ],
+  "bbox": [
+    -91.260834,
+    14.444168,
+    -88.677501,
+    15.527501
+  ],
+  "center": [
+    14.961899522599214,
+    -89.87985790533426
+  ],
+  "landcover": {
+    "type": "image_overlay",
+    "file": "landcover.png",
+    "bounds": [
+      [
+        14.444168,
+        -91.260834
+      ],
+      [
+        15.527501,
+        -88.677501
+      ]
+    ],
+    "legend": [
+      {
+        "class": 1,
+        "label": "Water",
+        "color": "#1A5BAB"
+      },
+      {
+        "class": 2,
+        "label": "Trees",
+        "color": "#358221"
+      },
+      {
+        "class": 4,
+        "label": "Flooded vegetation",
+        "color": "#87D19E"
+      },
+      {
+        "class": 5,
+        "label": "Crops",
+        "color": "#FFDB5C"
+      },
+      {
+        "class": 7,
+        "label": "Built area",
+        "color": "#ED022A"
+      },
+      {
+        "class": 8,
+        "label": "Bare ground",
+        "color": "#EDE9E4"
+      },
+      {
+        "class": 10,
+        "label": "Clouds",
+        "color": "#C8C8C8"
+      },
+      {
+        "class": 11,
+        "label": "Rangeland",
+        "color": "#C6AD8D"
+      }
+    ]
+  },
+  "files": {
+    "basins.geojson": 581156,
+    "buildings_density.geojson": 711812,
+    "country_boundary.geojson": 80326,
+    "landcover.png": 790749,
+    "landcover_bounds.json": 803,
+    "meta.json": 2559
+  },
+  "downloads": [
+    {
+      "basin_id": "B1",
+      "display_name": "Morales",
+      "geojson": "to_download/B1_Morales.geojson",
+      "shapefile_zip": "to_download/B1_Morales.zip",
+      "geojson_size": 218289,
+      "zip_size": 25072
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Gualan",
+      "geojson": "to_download/B2_Gualan.geojson",
+      "shapefile_zip": "to_download/B2_Gualan.zip",
+      "geojson_size": 187528,
+      "zip_size": 21413
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "Santa Ines Petape",
+      "geojson": "to_download/B3_Santa_Ines_Petape.geojson",
+      "shapefile_zip": "to_download/B3_Santa_Ines_Petape.zip",
+      "geojson_size": 20094,
+      "zip_size": 3877
+    },
+    {
+      "basin_id": "B4",
+      "display_name": "Panzos",
+      "geojson": "to_download/B4_Panzos.geojson",
+      "shapefile_zip": "to_download/B4_Panzos.zip",
+      "geojson_size": 53715,
+      "zip_size": 7362
+    },
+    {
+      "basin_id": "B5",
+      "display_name": "Santa Catalina la Tinta",
+      "geojson": "to_download/B5_Santa_Catalina_la_Tinta.geojson",
+      "shapefile_zip": "to_download/B5_Santa_Catalina_la_Tinta.zip",
+      "geojson_size": 39546,
+      "zip_size": 6032
+    },
+    {
+      "basin_id": "B6",
+      "display_name": "San Pedro Carcha",
+      "geojson": "to_download/B6_San_Pedro_Carcha.geojson",
+      "shapefile_zip": "to_download/B6_San_Pedro_Carcha.zip",
+      "geojson_size": 32836,
+      "zip_size": 5225
+    },
+    {
+      "basin_id": "B7",
+      "display_name": "Coban",
+      "geojson": "to_download/B7_Coban.geojson",
+      "shapefile_zip": "to_download/B7_Coban.zip",
+      "geojson_size": 30329,
+      "zip_size": 4868
+    }
+  ]
+}

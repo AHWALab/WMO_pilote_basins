@@ -1,0 +1,26 @@
+[
+  {
+    "basin_id": "B1",
+    "display_name": "Ngazidja (Grande Comore)",
+    "geojson": "to_download/B1_Ngazidja_Grande_Comore.geojson",
+    "shapefile_zip": "to_download/B1_Ngazidja_Grande_Comore.zip",
+    "geojson_size": 7707,
+    "zip_size": 4339
+  },
+  {
+    "basin_id": "B2",
+    "display_name": "Ndzuwani (Anjouan)",
+    "geojson": "to_download/B2_Ndzuwani_Anjouan.geojson",
+    "shapefile_zip": "to_download/B2_Ndzuwani_Anjouan.zip",
+    "geojson_size": 4067,
+    "zip_size": 2694
+  },
+  {
+    "basin_id": "B3",
+    "display_name": "Mwali (Moh\u00e9li)",
+    "geojson": "to_download/B3_Mwali_Moh_li.geojson",
+    "shapefile_zip": "to_download/B3_Mwali_Moh_li.zip",
+    "geojson_size": 7315,
+    "zip_size": 3962
+  }
+]

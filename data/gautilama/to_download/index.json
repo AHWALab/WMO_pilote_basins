@@ -1,0 +1,58 @@
+[
+  {
+    "basin_id": "B1",
+    "display_name": "Morales",
+    "geojson": "to_download/B1_Morales.geojson",
+    "shapefile_zip": "to_download/B1_Morales.zip",
+    "geojson_size": 218289,
+    "zip_size": 25072
+  },
+  {
+    "basin_id": "B2",
+    "display_name": "Gualan",
+    "geojson": "to_download/B2_Gualan.geojson",
+    "shapefile_zip": "to_download/B2_Gualan.zip",
+    "geojson_size": 187528,
+    "zip_size": 21413
+  },
+  {
+    "basin_id": "B3",
+    "display_name": "Santa Ines Petape",
+    "geojson": "to_download/B3_Santa_Ines_Petape.geojson",
+    "shapefile_zip": "to_download/B3_Santa_Ines_Petape.zip",
+    "geojson_size": 20094,
+    "zip_size": 3877
+  },
+  {
+    "basin_id": "B4",
+    "display_name": "Panzos",
+    "geojson": "to_download/B4_Panzos.geojson",
+    "shapefile_zip": "to_download/B4_Panzos.zip",
+    "geojson_size": 53715,
+    "zip_size": 7362
+  },
+  {
+    "basin_id": "B5",
+    "display_name": "Santa Catalina la Tinta",
+    "geojson": "to_download/B5_Santa_Catalina_la_Tinta.geojson",
+    "shapefile_zip": "to_download/B5_Santa_Catalina_la_Tinta.zip",
+    "geojson_size": 39546,
+    "zip_size": 6032
+  },
+  {
+    "basin_id": "B6",
+    "display_name": "San Pedro Carcha",
+    "geojson": "to_download/B6_San_Pedro_Carcha.geojson",
+    "shapefile_zip": "to_download/B6_San_Pedro_Carcha.zip",
+    "geojson_size": 32836,
+    "zip_size": 5225
+  },
+  {
+    "basin_id": "B7",
+    "display_name": "Coban",
+    "geojson": "to_download/B7_Coban.geojson",
+    "shapefile_zip": "to_download/B7_Coban.zip",
+    "geojson_size": 30329,
+    "zip_size": 4868
+  }
+]

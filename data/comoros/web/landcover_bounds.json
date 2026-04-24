@@ -1,0 +1,49 @@
+{
+  "bounds": [
+    [
+      -12.298270103089166,
+      43.251031587924
+    ],
+    [
+      -11.758230176759751,
+      44.51436217907262
+    ]
+  ],
+  "legend": [
+    {
+      "class": 1,
+      "label": "Water",
+      "color": "#1A5BAB"
+    },
+    {
+      "class": 2,
+      "label": "Trees",
+      "color": "#358221"
+    },
+    {
+      "class": 5,
+      "label": "Crops",
+      "color": "#FFDB5C"
+    },
+    {
+      "class": 7,
+      "label": "Built area",
+      "color": "#ED022A"
+    },
+    {
+      "class": 8,
+      "label": "Bare ground",
+      "color": "#EDE9E4"
+    },
+    {
+      "class": 10,
+      "label": "Clouds",
+      "color": "#C8C8C8"
+    },
+    {
+      "class": 11,
+      "label": "Rangeland",
+      "color": "#C6AD8D"
+    }
+  ]
+}

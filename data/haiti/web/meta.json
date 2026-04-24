@@ -1,0 +1,133 @@
+{
+  "country_code": "HT",
+  "country_name": "Republic of Haiti",
+  "basin_ids": [
+    "B1",
+    "B2",
+    "B3"
+  ],
+  "basins": [
+    {
+      "basin_id": "B1",
+      "display_name": "Griss River",
+      "group_key": "haiti_pilots",
+      "area_km2": 468.71
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Mapou River",
+      "group_key": "haiti_pilots",
+      "area_km2": 219.15
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "La Quinte River",
+      "group_key": "haiti_pilots",
+      "area_km2": 776.37
+    }
+  ],
+  "bbox": [
+    -72.765835,
+    18.335001,
+    -72.075002,
+    19.765834
+  ],
+  "center": [
+    19.188557727932427,
+    -72.40984091735933
+  ],
+  "landcover": {
+    "type": "image_overlay",
+    "file": "landcover.png",
+    "bounds": [
+      [
+        18.335001,
+        -72.765835
+      ],
+      [
+        19.765834,
+        -72.075002
+      ]
+    ],
+    "legend": [
+      {
+        "class": 1,
+        "label": "Water",
+        "color": "#1A5BAB"
+      },
+      {
+        "class": 2,
+        "label": "Trees",
+        "color": "#358221"
+      },
+      {
+        "class": 4,
+        "label": "Flooded vegetation",
+        "color": "#87D19E"
+      },
+      {
+        "class": 5,
+        "label": "Crops",
+        "color": "#FFDB5C"
+      },
+      {
+        "class": 7,
+        "label": "Built area",
+        "color": "#ED022A"
+      },
+      {
+        "class": 8,
+        "label": "Bare ground",
+        "color": "#EDE9E4"
+      },
+      {
+        "class": 9,
+        "label": "Snow / ice",
+        "color": "#F2FAFF"
+      },
+      {
+        "class": 10,
+        "label": "Clouds",
+        "color": "#C8C8C8"
+      },
+      {
+        "class": 11,
+        "label": "Rangeland",
+        "color": "#C6AD8D"
+      }
+    ]
+  },
+  "files": {
+    "basins.geojson": 77327,
+    "country_boundary.geojson": 30079,
+    "landcover.png": 155074,
+    "landcover_bounds.json": 888,
+    "meta.json": 1979
+  },
+  "downloads": [
+    {
+      "basin_id": "B1",
+      "display_name": "Griss River",
+      "geojson": "to_download/B1_Griss_River.geojson",
+      "shapefile_zip": "to_download/B1_Griss_River.zip",
+      "geojson_size": 27149,
+      "zip_size": 4582
+    },
+    {
+      "basin_id": "B2",
+      "display_name": "Mapou River",
+      "geojson": "to_download/B2_Mapou_River.geojson",
+      "shapefile_zip": "to_download/B2_Mapou_River.zip",
+      "geojson_size": 16835,
+      "zip_size": 3413
+    },
+    {
+      "basin_id": "B3",
+      "display_name": "La Quinte River",
+      "geojson": "to_download/B3_La_Quinte_River.geojson",
+      "shapefile_zip": "to_download/B3_La_Quinte_River.zip",
+      "geojson_size": 33745,
+      "zip_size": 5318
+    }
+  ]
+}
