@@ -17,9 +17,17 @@
   },
   {
     "basin_id": "B3",
+    "display_name": "Antigua pilot basin #3",
+    "geojson": "to_download/B3_Antigua_pilot_basin_3.geojson",
+    "shapefile_zip": "to_download/B3_Antigua_pilot_basin_3.zip",
+    "geojson_size": 3696,
+    "zip_size": 2445
+  },
+  {
+    "basin_id": "B4",
     "display_name": "Barbuda pilot basin",
-    "geojson": "to_download/B3_Barbuda_pilot_basin.geojson",
-    "shapefile_zip": "to_download/B3_Barbuda_pilot_basin.zip",
+    "geojson": "to_download/B4_Barbuda_pilot_basin.geojson",
+    "shapefile_zip": "to_download/B4_Barbuda_pilot_basin.zip",
     "geojson_size": 7967,
     "zip_size": 4095
   }

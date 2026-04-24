@@ -4,7 +4,8 @@
   "basin_ids": [
     "B1",
     "B2",
-    "B3"
+    "B3",
+    "B4"
   ],
   "basins": [
     {
@@ -21,6 +22,12 @@
     },
     {
       "basin_id": "B3",
+      "display_name": "Antigua pilot basin #3",
+      "group_key": "antigua_3",
+      "area_km2": 20.15
+    },
+    {
+      "basin_id": "B4",
       "display_name": "Barbuda pilot basin",
       "group_key": "barbuda",
       "area_km2": 77.83
@@ -33,8 +40,8 @@
     17.667639
   ],
   "center": [
-    17.441936144783885,
-    -61.80882517304711
+    17.39675270628687,
+    -61.80864508121395
   ],
   "landcover": {
     "type": "image_overlay",
@@ -93,12 +100,12 @@
     ]
   },
   "files": {
-    "basins.geojson": 19748,
-    "buildings.geojson": 4987471,
+    "basins.geojson": 23239,
+    "buildings_density.geojson": 158253,
     "country_boundary.geojson": 5829,
-    "landcover.png": 121255,
+    "landcover.png": 130300,
     "landcover_bounds.json": 837,
-    "meta.json": 2541
+    "meta.json": 3156
   },
   "downloads": [
     {
@@ -119,9 +126,17 @@
     },
     {
       "basin_id": "B3",
+      "display_name": "Antigua pilot basin #3",
+      "geojson": "to_download/B3_Antigua_pilot_basin_3.geojson",
+      "shapefile_zip": "to_download/B3_Antigua_pilot_basin_3.zip",
+      "geojson_size": 3696,
+      "zip_size": 2445
+    },
+    {
+      "basin_id": "B4",
       "display_name": "Barbuda pilot basin",
-      "geojson": "to_download/B3_Barbuda_pilot_basin.geojson",
-      "shapefile_zip": "to_download/B3_Barbuda_pilot_basin.zip",
+      "geojson": "to_download/B4_Barbuda_pilot_basin.geojson",
+      "shapefile_zip": "to_download/B4_Barbuda_pilot_basin.zip",
       "geojson_size": 7967,
       "zip_size": 4095
     }
